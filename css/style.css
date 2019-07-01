@@ -132,37 +132,43 @@ body {
 
 .div__img {
   height: 165px;
+  color: #ffffff;
+  font-size: 25px;
+  text-transform: uppercase;
+  display: grid;
+  align-items: flex-end;
+  padding-left: 20px;
+  opacity: 0.7;
 }
 
-/* .div__div-topworkz {
-  grid-column: 1 / 2;
-  grid-row: 1;
+.div__div-topworkz {
+  background-image: url(../images/topworkz.jpg)
 }
 
 .div__div-joint {
-  grid-column: 2 / 3;
-  grid-row: 1;
+  background-image: url(../images/joint.jpg)
 }
 
 .div__div-market {
-  grid-column: 3 / 4;
-  grid-row: 1;
+  background-image: url(../images/market.jpg)
 }
 
 .div__div-worktop {
-  grid-column: 1 / 2;
-  grid-row: 2;
+  background-image: url(../images/worktop.jpg)
 }
 
-.ddiv__div-lable {
-  grid-column: 2 / 3;
-  grid-row: 2;
+.div__div-lable {
+  background-image: url(../images/lable.jpg)
 }
 
 .div__div-kyiv {
-  grid-column: 3 / 4;
-  grid-row: 2;
-} */
+  background-image: url(../images/kyiv.jpg)
+}
+
+.div__img:hover {
+  opacity: 1;
+}
+
 .footer {
   height: 420px;
   display: flex;
